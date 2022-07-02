@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Title Section */
+
+#title {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+}
+
+#alfish {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo {
+  position: relative;
+  max-width: 80px;
+  height: 40px;
+}
+
+header ul {
+  position: relative;
+  display: flex;
+}
+
+header ul li {
+  list-style: none;
+}
+
+header ul li a {
+  display: inline-block;
+  color: #333;
+  font-weight: 400;
+  margin-left: 40px;
+  text-decoration: none;
+}
+
+.content {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content .textBox {
+  position: relative;
+  max-width: 500px;
+}
+
+.content .textBox h2 {
+  color: #333;
+  font-size: 4em;
+  line-height: 1.2em;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.content .textBox h2 span {
+  color: #1363DF;
+  font-size: 1.2em;
+  font-weight: 700;
+}
+
+.content .textBox p {
+  color: #333;
+}
+
+.content .textBox a {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 8px 20px;
+  background: #1363DF;
+  color: #fff;
+  border-radius: 40px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+
+.content .imgBox {
+  width: 600px;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 50px;
+
+}
+
+.content .imgBox img {
+  max-width: 440px;
+  margin-bottom: 80px;
+}
+
+.thumb {
+  position: absolute;
+  left: 50%;
+  bottom: 20px;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.thumb li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 30px;
+  cursor: pointer;
+  transition: transform 200ms ease-in-out 25ms; /* This smoothens the transform */
+}
+
+.thumb li:hover {
+  transform: translateY(-15px); /* Sick hover animation! */
+}
+
+.thumbGamingLaptop {
+  max-width: 70px;
+}
+
+.thumbNintendo {
+  max-width: 70px;
+}
+
+.thumbXBoxConsole {
+  max-width: 70px;
+}
+
+.titlecircle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #1363DF;
+  clip-path: circle(760px at right 800px); /* Tuhaf bir property. Kullanmayı öğren. */
+}
+
+/* Features Section */
+
+#features {
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  color: #1363DF;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #47B5FF;
+}
+
+.elite-clientele {
+  color: black;
+}
