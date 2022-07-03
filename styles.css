@@ -25,7 +25,7 @@
   font-weight: bold;
 }
 
-header {
+#title nav {
   position: absolute;
   top: 0;
   left: 0;
@@ -36,27 +36,51 @@ header {
   align-items: center;
 }
 
-header .logo {
+nav .logo {
   position: relative;
   max-width: 80px;
   height: 40px;
 }
 
-header ul {
+nav ul {
   position: relative;
   display: flex;
+  float: right;
 }
 
-header ul li {
+nav ul li {
   list-style: none;
 }
 
-header ul li a {
+nav ul li a {
   display: inline-block;
   color: #333;
   font-weight: 400;
   margin-left: 40px;
   text-decoration: none;
+}
+
+/* Responsivelik gereken alan */
+
+@media (max-width: 1120px) {
+  nav {
+    padding: 20px 30px;
+  }
+  #title {
+    text-align: center;
+  }
+
+  #title #alfish {
+    text-align: left;
+  }
+
+  .titlecircle {
+    display: none;
+  }
+
+  .thumbDiv {
+    display: none;
+  }
 }
 
 .content {
@@ -107,7 +131,6 @@ header ul li a {
   display: flex;
   justify-content: flex-end;
   padding-right: 50px;
-
 }
 
 .content .imgBox img {
@@ -144,7 +167,8 @@ header ul li a {
 }
 
 .thumbXBoxConsole {
-  max-width: 70px;
+  max-width: 60px;
+  margin-bottom: 2px;
 }
 
 .titlecircle {
@@ -182,4 +206,57 @@ header ul li a {
 
 .elite-clientele {
   color: black;
+}
+
+/* Newest Game Section */
+
+#newestgameSection {
+  background: #47B5FF;
+  padding: 5% 11% 7%;
+}
+
+.imgBoxNewestGame img {
+  max-width: 300px;
+}
+
+.imgBoxNewestGame img:hover {
+  transition: transform 100ms ease-in-out 25ms;
+  transform: translateY(-10px);
+}
+
+/* About Us Section */
+
+#aboutUs {
+  padding: 5% 11% 7%;
+}
+
+.imgBoxAboutUs img {
+  max-width: 350px;
+}
+
+/* Contact&Finish Section */
+
+#contact {
+  padding: 5% 11% 1%;
+  background: #1363DF;
+  text-align: center;
+}
+
+.footer-icon {
+  font-size: 40px;
+  color: white;
+  margin: 10px 20px;
+}
+
+.footer-icon:hover {
+  color: #DFF6FF;
+}
+
+.copyright {
+  margin-top: 70px;
+}
+
+#contact h4 {
+  margin-bottom: 20px;
+  color: #DFF6FF;
 }
