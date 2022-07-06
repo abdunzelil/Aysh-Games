@@ -1,6 +1,6 @@
 # Alfish-Games
 
-See the page: https://abdunzelil.github.io/Alfish-Games/
+See the page:https://abdunzelil.github.io/Alfish-Games/
 
 The website I have made for Alfish Games. (non-profit for now)
 
