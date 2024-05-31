@@ -1,6 +1,6 @@
 # Aysh-Games
 
-See the page:https://abdunzelil.github.io/Alfish-Games/
+See the page:https://abdunzelil.github.io/Aysh-Games/
 
 The website I have made for Aysh Games, my own gaming studio.
 
