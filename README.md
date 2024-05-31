@@ -1,8 +1,8 @@
-# Alfish-Games
+# Aysh-Games
 
 See the page:https://abdunzelil.github.io/Alfish-Games/
 
-The website I have made for Alfish Games. (non-profit for now)
+The website I have made for Aysh Games, my own gaming studio.
 
 ![bionlukportfolyoalfish](https://user-images.githubusercontent.com/93703261/177033601-b728d6ed-2cd5-4129-81ab-4bd5c1667ba5.png)
 
